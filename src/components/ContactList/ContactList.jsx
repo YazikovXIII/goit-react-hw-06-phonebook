@@ -12,7 +12,6 @@ export const ContactList = () => {
       name.toLowerCase().includes(filterValue.toLowerCase())
     );
   };
-  console.log(filterUser);
   const visible = filterUser();
 
   return (
